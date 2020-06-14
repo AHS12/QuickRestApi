@@ -23,6 +23,10 @@ A simple toy REST api for my personal use.It has token based auth system.also ha
 
 - single user : [GET] http://demoapi.questiongeneratorbd.com/public/api/user/id
 
+- update user : [POST] http://demoapi.questiongeneratorbd.com/public/api/user/update
+
+- delete user : [POST] http://demoapi.questiongeneratorbd.com/public/api/user/delete
+
 
 
 
@@ -32,6 +36,10 @@ A simple toy REST api for my personal use.It has token based auth system.also ha
 - list of all user: [GET] http://demoapi.questiongeneratorbd.com/public/api/noauth/users
 
 - single user : [GET] http://demoapi.questiongeneratorbd.com/public/api/noauth/user/id
+
+- update user : [POST] http://demoapi.questiongeneratorbd.com/public/api/noauth/user/update
+
+- delete user : [POST] http://demoapi.questiongeneratorbd.com/public/api/noauth/user/delete
 
 ## Freamworks and Tools
 
