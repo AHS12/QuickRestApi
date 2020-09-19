@@ -5,11 +5,11 @@ A simple toy REST api for my personal use.It has token based auth system.also ha
 **Auth:**
 
 
-- login: [POST] http://demoapi.questiongeneratorbd.com/public/api/login
+- login: [POST] http://demoapi.questiongeneratorbd.com/api/login
 
-- register: [POST] http://demoapi.questiongeneratorbd.com/public/api/register
+- register: [POST] http://demoapi.questiongeneratorbd.com/api/register
 
-- logout:[POST] http://demoapi.questiongeneratorbd.com/public/api/logout
+- logout:[POST] http://demoapi.questiongeneratorbd.com/api/logout
 
 
 
@@ -17,15 +17,15 @@ A simple toy REST api for my personal use.It has token based auth system.also ha
 **User(Authenticated):**
 
 
-- logged in user: [POST] http://demoapi.questiongeneratorbd.com/public/api/user
+- logged in user: [POST] http://demoapi.questiongeneratorbd.com/api/user
 
-- list of all user: [GET] http://demoapi.questiongeneratorbd.com/public/api/users
+- list of all user: [GET] http://demoapi.questiongeneratorbd.com/api/users
 
-- single user : [GET] http://demoapi.questiongeneratorbd.com/public/api/user/id
+- single user : [GET] http://demoapi.questiongeneratorbd.com/api/user/id
 
-- update user : [POST] http://demoapi.questiongeneratorbd.com/public/api/user/update
+- update user : [POST] http://demoapi.questiongeneratorbd.com/api/user/update
 
-- delete user : [POST] http://demoapi.questiongeneratorbd.com/public/api/user/delete
+- delete user : [POST] http://demoapi.questiongeneratorbd.com/api/user/delete
 
 
 
@@ -33,13 +33,13 @@ A simple toy REST api for my personal use.It has token based auth system.also ha
 **User(Unauthenticated):**
 
 
-- list of all user: [GET] http://demoapi.questiongeneratorbd.com/public/api/noauth/users
+- list of all user: [GET] http://demoapi.questiongeneratorbd.com/api/noauth/users
 
-- single user : [GET] http://demoapi.questiongeneratorbd.com/public/api/noauth/user/id
+- single user : [GET] http://demoapi.questiongeneratorbd.com/api/noauth/user/id
 
-- update user : [POST] http://demoapi.questiongeneratorbd.com/public/api/noauth/user/update
+- update user : [POST] http://demoapi.questiongeneratorbd.com/api/noauth/user/update
 
-- delete user : [POST] http://demoapi.questiongeneratorbd.com/public/api/noauth/user/delete
+- delete user : [POST] http://demoapi.questiongeneratorbd.com/api/noauth/user/delete
 
 ## Freamworks and Tools
 
